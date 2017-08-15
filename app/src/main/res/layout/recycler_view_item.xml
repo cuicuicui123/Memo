@@ -35,6 +35,16 @@
             android:textSize="@dimen/text_size_content"
             android:layout_marginTop="12dp"/>
 
+        <TextView
+            android:id="@+id/tv_date_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#333333"
+            android:layout_gravity="right"
+            android:text="今天"
+            android:textSize="@dimen/text_size_date"
+            android:layout_marginTop="12dp"/>
+
     </LinearLayout>
 
 </LinearLayout>
