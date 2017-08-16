@@ -12,7 +12,8 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="44dp"
-        android:background="@color/blue">
+        android:background="@color/blue"
+        android:elevation="@dimen/elevation_app_bar">
 
         <TextView
             android:id="@+id/tv_title"
@@ -25,9 +26,25 @@
 
     </RelativeLayout>
 
-    <android.support.v7.widget.RecyclerView
-        android:id="@+id/recycler_view"
+    <FrameLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <android.support.design.widget.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right"
+            android:backgroundTint="@color/blue"
+            android:src="@drawable/ic_add_white_24dp"
+            android:layout_margin="32dp"/>
+
+    </FrameLayout>
+
+
 
 </LinearLayout>
