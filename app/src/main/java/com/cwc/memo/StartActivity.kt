@@ -2,6 +2,7 @@ package com.cwc.memo
 
 import android.os.Bundle
 import android.support.v7.widget.LinearLayoutManager
+import android.widget.Toast
 import kotlinx.android.synthetic.main.activity_start.*
 
 class StartActivity : BaseActivity() {
@@ -32,6 +33,11 @@ class StartActivity : BaseActivity() {
         layoutManager.orientation = LinearLayoutManager.VERTICAL
         recycler_view.layoutManager = layoutManager
         recycler_view.addItemDecoration(DividerItemDecoration(this))
-        recycler_view.adapter = adapter
+        recycler_view.setOnClickListener { sum() }
+        adapter.setOnCLickListener { sum() }
+
     }
+
+    fun sum(){}
+
 }

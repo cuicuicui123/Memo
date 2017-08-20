@@ -18,4 +18,9 @@ abstract class BaseRecyclerViewAdapter : RecyclerView.Adapter<ViewHolder>() {
     interface OnItemClickListener{
         fun onItemClick()
     }
+
+    fun setOnCLickListener(onItemClickListener: (BaseRecyclerViewAdapter) -> Unit){
+
+    }
+
 }
