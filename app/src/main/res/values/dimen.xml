@@ -24,9 +24,9 @@
     <dimen name="file_image_size">36dp</dimen>
     <dimen name="unread_size">8dp</dimen>
 
-    <dimen name="text_size_title">18sp</dimen>
-    <dimen name="text_size_child_title">16sp</dimen>
-    <dimen name="text_size_content">15sp</dimen>
+    <dimen name="text_size_title">16sp</dimen>
+    <dimen name="text_size_child_title">15sp</dimen>
+    <dimen name="text_size_content">14sp</dimen>
     <dimen name="text_size_week">12sp</dimen>
     <dimen name="text_size_date">14sp</dimen>
     <dimen name="text_size_inform">14sp</dimen>
@@ -37,6 +37,8 @@
     <dimen name="elevation_bottom_bar">4dp</dimen>
     <dimen name="elevation_button">2dp</dimen>
     <dimen name="elevation_side_pop">16dp</dimen>
+    <dimen name="elevation_fab">6dp</dimen>
+    <dimen name="elevation_fab_press">12dp</dimen>
 
     <dimen name="dot_size">5dp</dimen>
     <dimen name="margin_content">4dp</dimen>
@@ -47,12 +49,15 @@
     <dimen name="margin_login_btn">32dp</dimen>
     <dimen name="margin_expandable">32dp</dimen>
     <dimen name="margin_user">100dp</dimen>
+    <dimen name="margin_elevation">32dp</dimen>
+    <dimen name="margin_dialog_button">32dp</dimen>
 
     <dimen name="padding_login_top">48dp</dimen>
     <dimen name="padding_kind">8dp</dimen>
     <dimen name="padding_border">12dp</dimen>
     <dimen name="padding_content">4dp</dimen>
     <dimen name="padding_expandable">56dp</dimen>
+    <dimen name="padding_dialog_button">16dp</dimen>
 
     <dimen name="pic_size_news">80dp</dimen>
     <dimen name="pic_size_return">32dp</dimen>

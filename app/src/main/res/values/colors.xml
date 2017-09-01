@@ -19,4 +19,5 @@
     <color name="transparent">#00000000</color>
     <color name="red">#FF0000</color>
     <color name="un_remind_color">#ff373b</color>
+    <color name="text_color">#333333</color>
 </resources>
